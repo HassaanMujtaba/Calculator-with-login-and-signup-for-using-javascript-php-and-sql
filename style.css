@@ -1,0 +1,76 @@
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 80px;
+}
+
+#login .container {
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+}
+
+#login .container h3 {
+    text-align: center;
+    margin: 10px 0px 40px 0px;
+    font-size: 25px;
+    word-spacing: 4px;
+}
+
+#login .container label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#login .container input {
+    outline: none;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+#login .container input[type=submit] {
+
+    background:black;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 70%;
+    margin: 20px 15%;
+}
+
+#login .container a
+{
+    text-decoration: none;
+    font-size: 18px;
+}
+#login .container h4 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#login .container h4 a {
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+#login .container .forget {
+    padding: 10px;
+    color: blue;
+    font-size: 14px;
+    font-weight: bold;
+}
